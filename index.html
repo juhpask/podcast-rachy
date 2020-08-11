@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" id="viewport" content="width=device-width, user-scalable=no">
+		<title>Podcast RaChy</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                })
+            }
+        </script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="logo">
+					<img src="images/logo.png">
+				</div>
+				<div class="menu">
+					<nav>
+						<div class="menuMobile">
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+						</div>
+						<ul>
+							<a href="#"><li>Criadores</li></a>
+							<a href="#"><li>Sugestões</li></a>
+							<a href="#"><li>Blog</li></a>
+							<a href="#"><li>Podcast</li></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="impacto">
+			<div class="container">
+				<div class="caching">
+					<img src="images/logo.png">
+					<h1>O melhor do entretenimento atual em Podcast</h1>
+				</div>
+				<div class="submit_email">
+					<p>Inscreva-se para receber os novos episódios direto no e-mail</p>
+					<input class="campo" type="email" name="email">
+					<input class="botao_email" type="submit" name="Enviar" value="Receber no e-mail">
+				</div>
+			</div>
+		</section>
+		<section class="description">
+			<div class="item">
+				<img src="images/television.png">
+				<h2>Ouça sobre as melhores séries</h2>
+				<p>Desde as mais famosas até as que ninguém conhece (ainda)</p>
+			</div>
+			<div class="item">
+				<img src="images/books.png" >
+				<h2>Ouça sobre os melhores livros</h2>
+				<p>Desde os mais famosos até os que ninguém conhece (ainda)</p>
+			</div>
+			<div class="item">
+				<img src="images/game.png" >
+				<h2>Ouça sobre os melhores jogos</h2>
+				<p>Desde os mais famosos até os que ninguém conhece (ainda)</p>
+			</div>
+			<div class="item">
+				<img src="images/movie.png" >
+				<h2>Ouça sobre os melhores filmes</h2>
+				<p>Desde os mais famosos até os que ninguém conhece (ainda)</p>
+			</div>
+			<div class="item">
+				<img src="images/anime.png" >
+				<h2>Ouça sobre os melhores animes</h2>
+				<p>Desde os mais famosos até os que ninguém conhece (ainda)</p>
+			</div>
+		</section>
+		<footer>
+			<div class="madeby">
+				Criado por <a href="">Júlia Paskauskas</a> como exercício para o curso <a href="https://alunos.b7web.com.br/" target="blank">HTML5 e CSS3 - B7Web.</a>
+			</div>
+		</footer>
+	</body>
+</html>
